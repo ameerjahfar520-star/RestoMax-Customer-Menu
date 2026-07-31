@@ -1,0 +1,212 @@
+{
+  "generated_at": "2026-07-31T23:03:26.749Z",
+  "version": "1.0.0",
+  "categories": [
+    {
+      "id": "shawarma",
+      "name_en": "Shawarma",
+      "name_ar": "شاورما",
+      "name_ku": "شاورما",
+      "icon": "Flame",
+      "sort_order": 1
+    },
+    {
+      "id": "grills",
+      "name_en": "Grills",
+      "name_ar": "مشويات",
+      "name_ku": "برژاو",
+      "icon": "UtensilsCrossed",
+      "sort_order": 2
+    },
+    {
+      "id": "ovens",
+      "name_en": "Ovens & Pastries",
+      "name_ar": "معجنات وفرن",
+      "name_ku": "هەویرکاری و فڕن",
+      "icon": "Pizza",
+      "sort_order": 3
+    },
+    {
+      "id": "drinks",
+      "name_en": "Beverages",
+      "name_ar": "مشروبات",
+      "name_ku": "خواردنەوەکان",
+      "icon": "CupSoda",
+      "sort_order": 4
+    },
+    {
+      "id": "appetizers",
+      "name_en": "Appetizers",
+      "name_ar": "مقبلات",
+      "name_ku": "پێشخواردن",
+      "icon": "Salad",
+      "sort_order": 5
+    },
+    {
+      "id": "desserts",
+      "name_en": "Desserts",
+      "name_ar": "حلويات",
+      "name_ku": "شیرینی",
+      "icon": "Cake",
+      "sort_order": 6
+    }
+  ],
+  "dishes": [
+    {
+      "id": "d-11",
+      "category_id": "appetizers",
+      "name_en": "Creamy Hummus with Pine Nuts",
+      "name_ar": "حمص بالطحينة والصنوبر وزيت الزيتون",
+      "name_ku": "حمص بە تەحین و فستق",
+      "price_iqd": 4500,
+      "price_usd": 3.5,
+      "image_url": "https://images.unsplash.com/photo-1577805947697-89e18249d767?auto=format&fit=crop&w=600&q=80",
+      "kitchen_section_id": "grill",
+      "is_available": 1,
+      "most_requested_score": 83
+    },
+    {
+      "id": "d-12",
+      "category_id": "desserts",
+      "name_en": "Kunafa with Cheese & Pistachio",
+      "name_ar": "كنافة نابلسية بالجبن والفستق الحلبي",
+      "name_ku": "کنافە بە پەنیر و فستقی حەلەبی",
+      "price_iqd": 6000,
+      "price_usd": 4.5,
+      "image_url": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=600&q=80",
+      "kitchen_section_id": "oven",
+      "is_available": 1,
+      "most_requested_score": 105
+    },
+    {
+      "id": "d-10",
+      "category_id": "drinks",
+      "name_en": "Natural Pomegranate Juice",
+      "name_ar": "عصير رمان طبيعي طازج",
+      "name_ku": "شەربەتی هەناری سروشتی",
+      "price_iqd": 3500,
+      "price_usd": 2.5,
+      "image_url": "https://images.unsplash.com/photo-1621506289937-a8e4df240d0b?auto=format&fit=crop&w=600&q=80",
+      "kitchen_section_id": "drinks",
+      "is_available": 1,
+      "most_requested_score": 91
+    },
+    {
+      "id": "d-8",
+      "category_id": "drinks",
+      "name_en": "Fresh Mint Lemonade",
+      "name_ar": "ليمونادة بالنعناع طازجة باردة",
+      "name_ku": "شەربەتی لیمۆ و نەعنای تازە",
+      "price_iqd": 3000,
+      "price_usd": 2.25,
+      "image_url": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=600&q=80",
+      "kitchen_section_id": "drinks",
+      "is_available": 1,
+      "most_requested_score": 141
+    },
+    {
+      "id": "d-9",
+      "category_id": "drinks",
+      "name_en": "Iraqi Cardamom Tea (Chai)",
+      "name_ar": "شاي عراقي مهيّل ساخن",
+      "name_ku": "چای عێراقی بە هێل",
+      "price_iqd": 1000,
+      "price_usd": 0.75,
+      "image_url": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=600&q=80",
+      "kitchen_section_id": "drinks",
+      "is_available": 1,
+      "most_requested_score": 190
+    },
+    {
+      "id": "d-3",
+      "category_id": "grills",
+      "name_en": "Iraqi Mixed Grill Skewers",
+      "name_ar": "مشويات عراقية مشكلة (نفر)",
+      "name_ku": "برژاوی تێکەڵەی عێراقی",
+      "price_iqd": 18000,
+      "price_usd": 13.5,
+      "image_url": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=600&q=80",
+      "kitchen_section_id": "grill",
+      "is_available": 1,
+      "most_requested_score": 111
+    },
+    {
+      "id": "d-4",
+      "category_id": "grills",
+      "name_en": "Grilled Lamb Kebab Skewers",
+      "name_ar": "كباب غنم عراقي مشوي",
+      "name_ku": "کەباب گۆشتی مەڕ برژاو",
+      "price_iqd": 12000,
+      "price_usd": 9,
+      "image_url": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=600&q=80",
+      "kitchen_section_id": "grill",
+      "is_available": 1,
+      "most_requested_score": 136
+    },
+    {
+      "id": "d-5",
+      "category_id": "grills",
+      "name_en": "Grilled Tikka Chicken Skewers",
+      "name_ar": "تكة دجاج مشوي على الفحم",
+      "name_ku": "تکەی مریشکی برژاو لەسەر خەڵووز",
+      "price_iqd": 10000,
+      "price_usd": 7.5,
+      "image_url": "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?auto=format&fit=crop&w=600&q=80",
+      "kitchen_section_id": "grill",
+      "is_available": 1,
+      "most_requested_score": 85
+    },
+    {
+      "id": "d-6",
+      "category_id": "ovens",
+      "name_en": "Lahmajoun / Oven Meat Pie",
+      "name_ar": "صفيحة لحم بعجين بالفرن",
+      "name_ku": "نان و گۆشت لە فڕن",
+      "price_iqd": 4000,
+      "price_usd": 3,
+      "image_url": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80",
+      "kitchen_section_id": "oven",
+      "is_available": 1,
+      "most_requested_score": 75
+    },
+    {
+      "id": "d-7",
+      "category_id": "ovens",
+      "name_en": "Cheese & Zaatar Manakish",
+      "name_ar": "مناقيش جبن وزعتر عكادي",
+      "name_ku": "نانی پەنیر و زەعتەر لە فڕن",
+      "price_iqd": 3500,
+      "price_usd": 2.5,
+      "image_url": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=600&q=80",
+      "kitchen_section_id": "oven",
+      "is_available": 1,
+      "most_requested_score": 65
+    },
+    {
+      "id": "d-1",
+      "category_id": "shawarma",
+      "name_en": "Classic Beef Shawarma Plate",
+      "name_ar": "شاورما لحم عربي صحن",
+      "name_ku": "قاپە شاورمای گۆشت",
+      "price_iqd": 8000,
+      "price_usd": 6,
+      "image_url": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?auto=format&fit=crop&w=600&q=80",
+      "kitchen_section_id": "shawarma",
+      "is_available": 1,
+      "most_requested_score": 95
+    },
+    {
+      "id": "d-2",
+      "category_id": "shawarma",
+      "name_en": "Chicken Shawarma Wrap",
+      "name_ar": "صاروخ شاورما دجاج",
+      "name_ku": "لەفەی شاورمای مریشک",
+      "price_iqd": 5000,
+      "price_usd": 3.75,
+      "image_url": "https://images.unsplash.com/photo-1561651823-34feb02250e4?auto=format&fit=crop&w=600&q=80",
+      "kitchen_section_id": "shawarma",
+      "is_available": 1,
+      "most_requested_score": 120
+    }
+  ]
+}
