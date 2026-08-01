@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T23:32:41.771Z",
+  "generated_at": "2026-08-01T20:07:43.453Z",
   "version": "1.0.0",
   "categories": [
     {
@@ -8,7 +8,8 @@
       "name_ar": "شاورما",
       "name_ku": "شاورما",
       "icon": "Flame",
-      "sort_order": 1
+      "sort_order": 1,
+      "name_tr": ""
     },
     {
       "id": "grills",
@@ -16,7 +17,8 @@
       "name_ar": "مشويات",
       "name_ku": "برژاو",
       "icon": "UtensilsCrossed",
-      "sort_order": 2
+      "sort_order": 2,
+      "name_tr": ""
     },
     {
       "id": "ovens",
@@ -24,7 +26,8 @@
       "name_ar": "معجنات وفرن",
       "name_ku": "هەویرکاری و فڕن",
       "icon": "Pizza",
-      "sort_order": 3
+      "sort_order": 3,
+      "name_tr": ""
     },
     {
       "id": "drinks",
@@ -32,7 +35,8 @@
       "name_ar": "مشروبات",
       "name_ku": "خواردنەوەکان",
       "icon": "CupSoda",
-      "sort_order": 4
+      "sort_order": 4,
+      "name_tr": ""
     },
     {
       "id": "appetizers",
@@ -40,7 +44,8 @@
       "name_ar": "مقبلات",
       "name_ku": "پێشخواردن",
       "icon": "Salad",
-      "sort_order": 5
+      "sort_order": 5,
+      "name_tr": ""
     },
     {
       "id": "desserts",
@@ -48,7 +53,44 @@
       "name_ar": "حلويات",
       "name_ku": "شیرینی",
       "icon": "Cake",
-      "sort_order": 6
+      "sort_order": 6,
+      "name_tr": ""
+    },
+    {
+      "id": "burgers",
+      "name_en": "Burgers",
+      "name_ar": "برغر",
+      "name_ku": "بەرگەر",
+      "icon": "Beef",
+      "sort_order": 7,
+      "name_tr": "Hamburgerler"
+    },
+    {
+      "id": "sides",
+      "name_en": "Sides & Snacks",
+      "name_ar": "أطباق جانبية",
+      "name_ku": "خواردنی لاوەکی",
+      "icon": "Drumstick",
+      "sort_order": 8,
+      "name_tr": "Yan Yemekler"
+    },
+    {
+      "id": "pizza",
+      "name_en": "Pizza",
+      "name_ar": "بيتزا",
+      "name_ku": "پیتزا",
+      "icon": "Pizza",
+      "sort_order": 9,
+      "name_tr": "Pizza"
+    },
+    {
+      "id": "pasta",
+      "name_en": "Pasta",
+      "name_ar": "باستا",
+      "name_ku": "پاستا",
+      "icon": "Soup",
+      "sort_order": 10,
+      "name_tr": "Makarna"
     }
   ],
   "dishes": [
@@ -63,7 +105,106 @@
       "image_url": "https://images.unsplash.com/photo-1577805947697-89e18249d767?auto=format&fit=crop&w=600&q=80",
       "kitchen_section_id": "grill",
       "is_available": 1,
-      "most_requested_score": 83
+      "most_requested_score": 84,
+      "name_tr": ""
+    },
+    {
+      "id": "d-img-26",
+      "category_id": "appetizers",
+      "name_en": "Crispy Fried Calamari",
+      "name_ar": "كالاماري مقلي مقرمش",
+      "name_ku": "کالاماری قرمچ",
+      "price_iqd": 9000,
+      "price_usd": 6.75,
+      "image_url": "/uploads/dishes/8edf41cc-d0c0-4778-8dea-38fb07e8c30f.jpg",
+      "kitchen_section_id": "fryer",
+      "is_available": 1,
+      "most_requested_score": 140,
+      "name_tr": "Çıtır Kalamar"
+    },
+    {
+      "id": "d-img-27",
+      "category_id": "appetizers",
+      "name_en": "Mediterranean Hummus Plate",
+      "name_ar": "صحن حمص بالخضار الطازجة",
+      "name_ku": "حمص بە سەوزەواتی تازە",
+      "price_iqd": 5000,
+      "price_usd": 3.75,
+      "image_url": "/uploads/dishes/af30cf3f-dcc1-4d5d-9764-a4671da9ba07.jpg",
+      "kitchen_section_id": "grill",
+      "is_available": 1,
+      "most_requested_score": 160,
+      "name_tr": "Sebzeli Humus Tabağı"
+    },
+    {
+      "id": "d-img-28",
+      "category_id": "appetizers",
+      "name_en": "Fresh Mediterranean Salad",
+      "name_ar": "سلطة خضار متوسطية تازة",
+      "name_ku": "زەڵاتەی سەوزەواتی تازە",
+      "price_iqd": 4500,
+      "price_usd": 3.5,
+      "image_url": "/uploads/dishes/b10459c4-8e61-411a-9fe5-f3b6d05cabaa.jpg",
+      "kitchen_section_id": "grill",
+      "is_available": 1,
+      "most_requested_score": 135,
+      "name_tr": "Taze Akdeniz Salatası"
+    },
+    {
+      "id": "d-img-29",
+      "category_id": "appetizers",
+      "name_en": "Guacamole with Tortilla Chips",
+      "name_ar": "غواكامولي مع رقائق التورتيلا",
+      "name_ku": "گواکامۆلی لەگەڵ چیپسی تۆرتیلا",
+      "price_iqd": 6500,
+      "price_usd": 5,
+      "image_url": "/uploads/dishes/f055ebf1-c11d-4043-a2f4-ae11c005da04.jpg",
+      "kitchen_section_id": "grill",
+      "is_available": 1,
+      "most_requested_score": 110,
+      "name_tr": "Tortilla Cipsli Guacamole"
+    },
+    {
+      "id": "d-img-1",
+      "category_id": "burgers",
+      "name_en": "Classic Hamburger",
+      "name_ar": "هامبرغر كلاسيكي",
+      "name_ku": "هامبەرگەری کلاسیکی",
+      "price_iqd": 7000,
+      "price_usd": 5.25,
+      "image_url": "/uploads/dishes/87f2bf9b-175b-47b6-a2e9-4e80d81e1e23.jpg",
+      "kitchen_section_id": "fryer",
+      "is_available": 1,
+      "most_requested_score": 130,
+      "name_tr": "Klasik Hamburger"
+    },
+    {
+      "id": "d-img-2",
+      "category_id": "burgers",
+      "name_en": "Double Smash Burger",
+      "name_ar": "سماش برغر مزدوج بالجبن",
+      "name_ku": "سماش بەرگەری دووانی",
+      "price_iqd": 10000,
+      "price_usd": 7.5,
+      "image_url": "/uploads/dishes/65543790-68a8-45b4-b8e6-2ddc30b0bf0d.jpg",
+      "kitchen_section_id": "fryer",
+      "is_available": 1,
+      "most_requested_score": 157,
+      "name_tr": "Double Smash Burger"
+    },
+    {
+      "id": "d-img-3",
+      "category_id": "burgers",
+      "name_en": "Crispy Chicken Burger",
+      "name_ar": "برغر دجاج مقرمش بالجبن",
+      "name_ku": "بەرگەری مریشکی قرمچ",
+      "price_iqd": 8000,
+      "price_usd": 6,
+      "image_url": "/uploads/dishes/614c4e83-8d6d-4a51-9e05-e49740cf9d8a.jpg",
+      "kitchen_section_id": "fryer",
+      "is_available": 1,
+      "most_requested_score": 120,
+      "name_tr": "Çıtır Tavuk Burger"
     },
     {
       "id": "d-12",
@@ -76,7 +217,78 @@
       "image_url": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=600&q=80",
       "kitchen_section_id": "oven",
       "is_available": 1,
-      "most_requested_score": 105
+      "most_requested_score": 106,
+      "name_tr": ""
+    },
+    {
+      "id": "d-img-13",
+      "category_id": "desserts",
+      "name_en": "Chocolate Strawberry Cake",
+      "name_ar": "كيكة شوكولاتة بالفراولة",
+      "name_ku": "کەیکی چکلێت و فراولە",
+      "price_iqd": 7000,
+      "price_usd": 5.25,
+      "image_url": "/uploads/dishes/6c7d4333-fa67-4a6f-af99-3c7381b98e00.jpg",
+      "kitchen_section_id": "oven",
+      "is_available": 1,
+      "most_requested_score": 125,
+      "name_tr": "Çilekli Çikolatalı Pasta"
+    },
+    {
+      "id": "d-img-14",
+      "category_id": "desserts",
+      "name_en": "Chocolate Tiramisu",
+      "name_ar": "تيراميسو بالشوكولاتة",
+      "name_ku": "تیرامیسوی چکلێت",
+      "price_iqd": 8000,
+      "price_usd": 6,
+      "image_url": "/uploads/dishes/f4349cc0-95ae-4457-b300-a98031bd4647.jpg",
+      "kitchen_section_id": "oven",
+      "is_available": 1,
+      "most_requested_score": 105,
+      "name_tr": "Çikolatalı Tiramisu"
+    },
+    {
+      "id": "d-img-30",
+      "category_id": "desserts",
+      "name_en": "Special Turkish Kunafa",
+      "name_ar": "كنافة تركية خاصة بالفستق",
+      "name_ku": "کنافەی تورکی تایبەت بە فستق",
+      "price_iqd": 8000,
+      "price_usd": 6,
+      "image_url": "/uploads/dishes/36136488-7dc9-477f-97fb-05980d39ea3f.jpg",
+      "kitchen_section_id": "oven",
+      "is_available": 1,
+      "most_requested_score": 190,
+      "name_tr": "Özel Antep Fıstıklı Künefe"
+    },
+    {
+      "id": "d-img-31",
+      "category_id": "desserts",
+      "name_en": "Pistachio Baklava (4 pcs)",
+      "name_ar": "بقلاوة بالفستق الحلبي (٤ قطع)",
+      "name_ku": "بەقلاوەی فستقی حەلەبی (٤ دانە)",
+      "price_iqd": 7000,
+      "price_usd": 5.25,
+      "image_url": "/uploads/dishes/8b2d29e7-a9cc-4d92-967e-9246e95a3c98.jpg",
+      "kitchen_section_id": "oven",
+      "is_available": 1,
+      "most_requested_score": 175,
+      "name_tr": "Fıstıklı Baklava (4 dilim)"
+    },
+    {
+      "id": "d-img-32",
+      "category_id": "desserts",
+      "name_en": "Basbousa with Almonds",
+      "name_ar": "بسبوسة باللوز (هريسة)",
+      "name_ku": "بەسبووسە بە بادام",
+      "price_iqd": 5000,
+      "price_usd": 3.75,
+      "image_url": "/uploads/dishes/52ef91c3-4258-4009-87ea-161bf63037f9.jpg",
+      "kitchen_section_id": "oven",
+      "is_available": 1,
+      "most_requested_score": 155,
+      "name_tr": "Bademli Revani / Basbousa"
     },
     {
       "id": "d-10",
@@ -89,7 +301,8 @@
       "image_url": "https://images.unsplash.com/photo-1621506289937-a8e4df240d0b?auto=format&fit=crop&w=600&q=80",
       "kitchen_section_id": "drinks",
       "is_available": 1,
-      "most_requested_score": 91
+      "most_requested_score": 91,
+      "name_tr": ""
     },
     {
       "id": "d-8",
@@ -102,7 +315,8 @@
       "image_url": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=600&q=80",
       "kitchen_section_id": "drinks",
       "is_available": 1,
-      "most_requested_score": 141
+      "most_requested_score": 160,
+      "name_tr": ""
     },
     {
       "id": "d-9",
@@ -115,7 +329,162 @@
       "image_url": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=600&q=80",
       "kitchen_section_id": "drinks",
       "is_available": 1,
-      "most_requested_score": 190
+      "most_requested_score": 199,
+      "name_tr": ""
+    },
+    {
+      "id": "d-img-15",
+      "category_id": "drinks",
+      "name_en": "Oreo Milkshake",
+      "name_ar": "ميلك شيك أوريو",
+      "name_ku": "شیری هەنگاوی ئۆریۆ",
+      "price_iqd": 5000,
+      "price_usd": 3.75,
+      "image_url": "/uploads/dishes/9030acac-917c-4562-a956-7a97f9ed8c31.jpg",
+      "kitchen_section_id": "drinks",
+      "is_available": 1,
+      "most_requested_score": 135,
+      "name_tr": "Oreo Milkshake"
+    },
+    {
+      "id": "d-img-16",
+      "category_id": "drinks",
+      "name_en": "Strawberry Banana Smoothie",
+      "name_ar": "سموذي فراولة وموز",
+      "name_ku": "سموزی فراولە و مۆز",
+      "price_iqd": 5000,
+      "price_usd": 3.75,
+      "image_url": "/uploads/dishes/ec023701-7b00-4536-9ae9-cb85e7560690.jpg",
+      "kitchen_section_id": "drinks",
+      "is_available": 1,
+      "most_requested_score": 100,
+      "name_tr": "Çilekli Muzlu Smoothie"
+    },
+    {
+      "id": "d-img-17",
+      "category_id": "drinks",
+      "name_en": "Water Bottle (500ml)",
+      "name_ar": "قنينة ماء (٥٠٠ مل)",
+      "name_ku": "بوتڵ ئاو (٥٠٠ مل)",
+      "price_iqd": 500,
+      "price_usd": 0.5,
+      "image_url": "/uploads/dishes/3f519139-06b5-40e5-969e-923984e18188.jpg",
+      "kitchen_section_id": "drinks",
+      "is_available": 1,
+      "most_requested_score": 201,
+      "name_tr": "Su Şişesi (500ml)"
+    },
+    {
+      "id": "d-img-18",
+      "category_id": "drinks",
+      "name_en": "Coca-Cola",
+      "name_ar": "كوكا كولا",
+      "name_ku": "کۆکا کۆلا",
+      "price_iqd": 1500,
+      "price_usd": 1,
+      "image_url": "/uploads/dishes/874ebdc4-c271-444b-9290-868e54579e21.jpg",
+      "kitchen_section_id": "drinks",
+      "is_available": 1,
+      "most_requested_score": 185,
+      "name_tr": "Coca-Cola"
+    },
+    {
+      "id": "d-img-19",
+      "category_id": "drinks",
+      "name_en": "Fanta Orange",
+      "name_ar": "فانتا برتقال",
+      "name_ku": "فانتا پرتقاڵ",
+      "price_iqd": 1500,
+      "price_usd": 1,
+      "image_url": "/uploads/dishes/67127f6d-9620-4a71-a734-f3bb8b0d197d.jpg",
+      "kitchen_section_id": "drinks",
+      "is_available": 1,
+      "most_requested_score": 150,
+      "name_tr": "Fanta Portakal"
+    },
+    {
+      "id": "d-img-20",
+      "category_id": "drinks",
+      "name_en": "Pepsi",
+      "name_ar": "بيبسي",
+      "name_ku": "پێپسی",
+      "price_iqd": 1500,
+      "price_usd": 1,
+      "image_url": "/uploads/dishes/19a8c9fa-dc3a-4a65-b70a-f31e46f87e5e.jpg",
+      "kitchen_section_id": "drinks",
+      "is_available": 1,
+      "most_requested_score": 176,
+      "name_tr": "Pepsi"
+    },
+    {
+      "id": "d-img-21",
+      "category_id": "drinks",
+      "name_en": "Sprite",
+      "name_ar": "سبرايت",
+      "name_ku": "سپرایت",
+      "price_iqd": 1500,
+      "price_usd": 1,
+      "image_url": "/uploads/dishes/d7171d79-3634-4ca3-ad88-5cd740f87ad0.jpg",
+      "kitchen_section_id": "drinks",
+      "is_available": 1,
+      "most_requested_score": 145,
+      "name_tr": "Sprite"
+    },
+    {
+      "id": "d-img-22",
+      "category_id": "drinks",
+      "name_en": "Pineapple Juice",
+      "name_ar": "عصير أناناس طازج",
+      "name_ku": "شەربەتی ئەناناس",
+      "price_iqd": 3500,
+      "price_usd": 2.5,
+      "image_url": "/uploads/dishes/4edfc35f-d215-4a51-b7e1-3bf3723d036f.jpg",
+      "kitchen_section_id": "drinks",
+      "is_available": 1,
+      "most_requested_score": 95,
+      "name_tr": "Ananas Suyu"
+    },
+    {
+      "id": "d-img-23",
+      "category_id": "drinks",
+      "name_en": "Fresh Orange Juice",
+      "name_ar": "عصير برتقال طبيعي",
+      "name_ku": "شەربەتی پرتقاڵی تازە",
+      "price_iqd": 3000,
+      "price_usd": 2.25,
+      "image_url": "/uploads/dishes/6d5ccd6d-0e79-42da-a9fc-2e9057a369b5.jpg",
+      "kitchen_section_id": "drinks",
+      "is_available": 1,
+      "most_requested_score": 130,
+      "name_tr": "Taze Portakal Suyu"
+    },
+    {
+      "id": "d-img-24",
+      "category_id": "drinks",
+      "name_en": "Fresh Lemon Juice",
+      "name_ar": "عصير ليمون طازج",
+      "name_ku": "شەربەتی لیمۆی تازە",
+      "price_iqd": 2500,
+      "price_usd": 2,
+      "image_url": "/uploads/dishes/68ffb6d3-27cd-4dec-b769-99761451b935.jpg",
+      "kitchen_section_id": "drinks",
+      "is_available": 1,
+      "most_requested_score": 120,
+      "name_tr": "Taze Limon Suyu"
+    },
+    {
+      "id": "d-img-25",
+      "category_id": "drinks",
+      "name_en": "Watermelon Slushie",
+      "name_ar": "سلاشي رقي",
+      "name_ku": "شەربەتی شوتی",
+      "price_iqd": 3500,
+      "price_usd": 2.5,
+      "image_url": "/uploads/dishes/1e90c1b1-db87-4bf9-837e-7b01e09e7c45.jpg",
+      "kitchen_section_id": "drinks",
+      "is_available": 1,
+      "most_requested_score": 110,
+      "name_tr": "Karpuz Slush"
     },
     {
       "id": "d-3",
@@ -128,7 +497,8 @@
       "image_url": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=600&q=80",
       "kitchen_section_id": "grill",
       "is_available": 1,
-      "most_requested_score": 111
+      "most_requested_score": 112,
+      "name_tr": ""
     },
     {
       "id": "d-4",
@@ -141,7 +511,8 @@
       "image_url": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=600&q=80",
       "kitchen_section_id": "grill",
       "is_available": 1,
-      "most_requested_score": 136
+      "most_requested_score": 144,
+      "name_tr": ""
     },
     {
       "id": "d-5",
@@ -154,7 +525,8 @@
       "image_url": "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?auto=format&fit=crop&w=600&q=80",
       "kitchen_section_id": "grill",
       "is_available": 1,
-      "most_requested_score": 85
+      "most_requested_score": 85,
+      "name_tr": ""
     },
     {
       "id": "d-6",
@@ -167,7 +539,8 @@
       "image_url": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80",
       "kitchen_section_id": "oven",
       "is_available": 1,
-      "most_requested_score": 75
+      "most_requested_score": 76,
+      "name_tr": ""
     },
     {
       "id": "d-7",
@@ -180,7 +553,64 @@
       "image_url": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=600&q=80",
       "kitchen_section_id": "oven",
       "is_available": 1,
-      "most_requested_score": 65
+      "most_requested_score": 65,
+      "name_tr": ""
+    },
+    {
+      "id": "d-img-12",
+      "category_id": "pasta",
+      "name_en": "Spaghetti & Meatballs",
+      "name_ar": "سباغيتي مع كرات اللحم",
+      "name_ku": "سپاگێتی و گۆشت",
+      "price_iqd": 9000,
+      "price_usd": 6.75,
+      "image_url": "/uploads/dishes/27efe101-3b67-4414-a57b-629e83848733.jpg",
+      "kitchen_section_id": "oven",
+      "is_available": 1,
+      "most_requested_score": 110,
+      "name_tr": "Köfteli Spagetti"
+    },
+    {
+      "id": "d-img-10",
+      "category_id": "pizza",
+      "name_en": "Pepperoni Pizza",
+      "name_ar": "بيتزا بيبروني",
+      "name_ku": "پیتزای پێپەرۆنی",
+      "price_iqd": 12000,
+      "price_usd": 9,
+      "image_url": "/uploads/dishes/30b0e5ca-e787-4b3b-8015-af563947c932.jpg",
+      "kitchen_section_id": "oven",
+      "is_available": 1,
+      "most_requested_score": 160,
+      "name_tr": "Pepperoni Pizza"
+    },
+    {
+      "id": "d-img-11",
+      "category_id": "pizza",
+      "name_en": "Double Cheese Pizza",
+      "name_ar": "بيتزا دبل تشيز",
+      "name_ku": "پیتزای دوو پەنیر",
+      "price_iqd": 13000,
+      "price_usd": 9.75,
+      "image_url": "/uploads/dishes/53ca0937-9d90-41ad-9ef1-b0c1b98416fb.jpg",
+      "kitchen_section_id": "oven",
+      "is_available": 1,
+      "most_requested_score": 145,
+      "name_tr": "Çift Peynirli Pizza"
+    },
+    {
+      "id": "d-img-9",
+      "category_id": "pizza",
+      "name_en": "Margherita Pizza",
+      "name_ar": "بيتزا مارغريتا",
+      "name_ku": "پیتزای مارگەریتا",
+      "price_iqd": 10000,
+      "price_usd": 7.5,
+      "image_url": "/uploads/dishes/77ebfd6d-4cde-4a53-bf51-4f3edb8a196c.jpg",
+      "kitchen_section_id": "oven",
+      "is_available": 1,
+      "most_requested_score": 140,
+      "name_tr": "Margarita Pizza"
     },
     {
       "id": "d-1",
@@ -193,7 +623,8 @@
       "image_url": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?auto=format&fit=crop&w=600&q=80",
       "kitchen_section_id": "shawarma",
       "is_available": 1,
-      "most_requested_score": 95
+      "most_requested_score": 95,
+      "name_tr": ""
     },
     {
       "id": "d-2",
@@ -206,7 +637,78 @@
       "image_url": "https://images.unsplash.com/photo-1561651823-34feb02250e4?auto=format&fit=crop&w=600&q=80",
       "kitchen_section_id": "shawarma",
       "is_available": 1,
-      "most_requested_score": 120
+      "most_requested_score": 126,
+      "name_tr": ""
+    },
+    {
+      "id": "d-img-4",
+      "category_id": "sides",
+      "name_en": "Crispy Chicken Tenders",
+      "name_ar": "ستربس دجاج مقرمش",
+      "name_ku": "تێندەری مریشکی قرمچ",
+      "price_iqd": 7000,
+      "price_usd": 5.25,
+      "image_url": "/uploads/dishes/ab207dba-38f4-436d-b2f2-50246d6e5681.jpg",
+      "kitchen_section_id": "fryer",
+      "is_available": 1,
+      "most_requested_score": 100,
+      "name_tr": "Çıtır Tavuk Tender"
+    },
+    {
+      "id": "d-img-5",
+      "category_id": "sides",
+      "name_en": "Chicken Nuggets (10 pcs)",
+      "name_ar": "ناجتس دجاج (١٠ قطع)",
+      "name_ku": "ناگەتسی مریشک (١٠ دانە)",
+      "price_iqd": 6000,
+      "price_usd": 4.5,
+      "image_url": "/uploads/dishes/c12bc25d-d995-4005-af6f-155c8672d33b.jpg",
+      "kitchen_section_id": "fryer",
+      "is_available": 1,
+      "most_requested_score": 115,
+      "name_tr": "Tavuk Nugget (10 adet)"
+    },
+    {
+      "id": "d-img-6",
+      "category_id": "sides",
+      "name_en": "French Fries",
+      "name_ar": "بطاطا مقلية",
+      "name_ku": "چیپس",
+      "price_iqd": 3000,
+      "price_usd": 2.25,
+      "image_url": "/uploads/dishes/1a1a3a23-1541-40f5-83be-1ea14e2b5074.jpg",
+      "kitchen_section_id": "fryer",
+      "is_available": 1,
+      "most_requested_score": 170,
+      "name_tr": "Patates Kızartması"
+    },
+    {
+      "id": "d-img-7",
+      "category_id": "sides",
+      "name_en": "Loaded Cheese Fries",
+      "name_ar": "بطاطا بالجبن المحملة",
+      "name_ku": "چیپسی پەنیردار",
+      "price_iqd": 5000,
+      "price_usd": 3.75,
+      "image_url": "/uploads/dishes/65532db7-87a7-454d-8d45-56853efe0d28.jpg",
+      "kitchen_section_id": "fryer",
+      "is_available": 1,
+      "most_requested_score": 95,
+      "name_tr": "Peynirli Patates"
+    },
+    {
+      "id": "d-img-8",
+      "category_id": "sides",
+      "name_en": "Spicy Potato Wedges",
+      "name_ar": "بطاطا ودجز حارة",
+      "name_ku": "وێجی پەتاتەی تیژ",
+      "price_iqd": 4000,
+      "price_usd": 3,
+      "image_url": "/uploads/dishes/5002c307-f0b8-4ade-aa2c-bd26efadb892.jpg",
+      "kitchen_section_id": "fryer",
+      "is_available": 1,
+      "most_requested_score": 85,
+      "name_tr": "Baharatlı Patates Dilimi"
     }
   ]
 }
